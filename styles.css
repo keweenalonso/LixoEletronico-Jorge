@@ -1,0 +1,182 @@
+
+a{
+  color:black;
+  text-decoration:none;
+  display:block;
+  margin:40px auto;
+  width:150px;
+  border:none;
+  padding:5px;
+  border-radius:10px;
+  text-align:center;
+  background-color: #3498db;
+}
+/* Estilos Gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #2c3e50; /* Azul escuro */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* Estilos Específicos para Dispositivos Móveis */
+@media only screen and (max-width: 768px) {
+  header, footer {
+    padding: 10px;
+  }
+  
+  main {
+    padding: 10px;
+  }
+
+  section {
+    margin-bottom: 10px;
+  }
+}
+
+/* Estilos Específicos para o Formulário */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #ecf0f1; /* Cinza claro */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* Estilos Específicos para a Página de Agradecimento */
+#obrigado {
+  text-align: center;
+  padding: 50px;
+}
+
+#obrigado p {
+  margin: 20px 0;
+}
+
+#obrigado a {
+  color: #3498db; /* Azul */
+  text-decoration: none;
+  border-bottom: 1px dashed #3498db;
+}
+
+#obrigado a:hover {
+  color: #2980b9; /* Azul mais escuro */
+  border-bottom: none;
+}
+
+
+/* Estilos Gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* Estilos Específicos para Dispositivos Móveis */
+@media only screen and (max-width: 768px) {
+  header, footer {
+    padding: 10px;
+  }
+  
+  main {
+    padding: 10px;
+  }
+
+  section {
+    margin-bottom: 10px;
+  }
+}
+
+/* Estilos Específicos para a Página Principal */
+section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilização específica para os subtítulos */
+h2 {
+  color: #007bff;
+  margin-top: 0;
+}
+
+/* Estilização para o rodapé */
+footer {
+  width: 100%;
+}
