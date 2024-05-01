@@ -84,11 +84,7 @@ textarea {
 }
 
 button {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
+  border:none;
   cursor: pointer;
 }
 
